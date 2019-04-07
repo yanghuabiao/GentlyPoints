@@ -36,6 +36,7 @@ PODS:
   - JPush (3.1.2):
     - JCore (~> 1.2.6)
   - JXCategoryView (1.3.0)
+  - Masonry (1.1.0)
   - MFExtractColor (1.0.0)
   - MFHUDManager (0.1.5)
   - MFNetworkManager (0.3.0):
@@ -387,6 +388,7 @@ DEPENDENCIES:
   - FreeStreamer (~> 3.8.2)
   - JPush
   - JXCategoryView
+  - Masonry
   - MFExtractColor
   - MFHUDManager
   - MFNetworkManager
@@ -419,6 +421,7 @@ SPEC REPOS:
     - JCore
     - JPush
     - JXCategoryView
+    - Masonry
     - MFExtractColor
     - MFHUDManager
     - MFNetworkManager
@@ -457,6 +460,7 @@ SPEC CHECKSUMS:
   JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
   JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
   JXCategoryView: b3bf1bedb51b5f98b63d51f0e31007a2ef80de14
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MFExtractColor: 3f9e7be95e507f2b9f131627c8e01a8914f15be6
   MFHUDManager: 7b359671b0042d94cce27e94d3d3bca2a3f0f39e
   MFNetworkManager: 883cbb2beaa7338800cccc21b5959b27a248d6f8
@@ -482,6 +486,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 15ef37728651c33b004e4f46574b4c849e0a6255
+PODFILE CHECKSUM: 2806238dd0337eb91315cdedd9fe53ca37e3c5d6
 
 COCOAPODS: 1.6.1

@@ -16,7 +16,6 @@
 #import <XHLaunchAd.h>
 #import "UIColor+CustomColors.h"
 #import "GODWebViewController.h"
-#import "YMHLVideoFlowViewController.h"
 
 @implementation TEMPLaunchManager
 + (instancetype)defaultManager {

@@ -126,6 +126,8 @@
 		379547F02259A3AA0050CB02 /* ZDDPhotoBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 379547832259A3A90050CB02 /* ZDDPhotoBrowseView.m */; };
 		379547F12259A3AA0050CB02 /* mook.json in Resources */ = {isa = PBXBuildFile; fileRef = 379547852259A3A90050CB02 /* mook.json */; };
 		379547F42259A3B80050CB02 /* TEMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379547F22259A3B80050CB02 /* TEMPAppDelegate.m */; };
+		37E8260F2259A893004BE9CE /* GODUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8260D2259A893004BE9CE /* GODUserModel.m */; };
+		37E826102259A893004BE9CE /* GODUserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8260E2259A893004BE9CE /* GODUserTool.m */; };
 		E9DCC7170218A1960A5DFF0B /* libPods-GentlyPoints.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC9FC3732CB0F67647AB184 /* libPods-GentlyPoints.a */; };
 /* End PBXBuildFile section */
 
@@ -395,6 +397,11 @@
 		379547852259A3A90050CB02 /* mook.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mook.json; sourceTree = "<group>"; };
 		379547F22259A3B80050CB02 /* TEMPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEMPAppDelegate.m; sourceTree = "<group>"; };
 		379547F32259A3B80050CB02 /* TEMPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEMPAppDelegate.h; sourceTree = "<group>"; };
+		37E8260A2259A754004BE9CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		37E8260B2259A892004BE9CE /* GODUserTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODUserTool.h; sourceTree = "<group>"; };
+		37E8260C2259A892004BE9CE /* GODUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODUserModel.h; sourceTree = "<group>"; };
+		37E8260D2259A893004BE9CE /* GODUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODUserModel.m; sourceTree = "<group>"; };
+		37E8260E2259A893004BE9CE /* GODUserTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODUserTool.m; sourceTree = "<group>"; };
 		5327F10EE0FB86D5203105E0 /* Pods-GentlyPoints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GentlyPoints.debug.xcconfig"; path = "Target Support Files/Pods-GentlyPoints/Pods-GentlyPoints.debug.xcconfig"; sourceTree = "<group>"; };
 		BCC9FC3732CB0F67647AB184 /* libPods-GentlyPoints.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GentlyPoints.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7361AF44B5A7CF52610E36D /* Pods-GentlyPoints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GentlyPoints.release.xcconfig"; path = "Target Support Files/Pods-GentlyPoints/Pods-GentlyPoints.release.xcconfig"; sourceTree = "<group>"; };
@@ -453,6 +460,7 @@
 			children = (
 				379547F32259A3B80050CB02 /* TEMPAppDelegate.h */,
 				379547F22259A3B80050CB02 /* TEMPAppDelegate.m */,
+				37E826112259AB15004BE9CE /* Business */,
 				379546922259A3A60050CB02 /* Launch */,
 				3795468F2259A3A60050CB02 /* SDK */,
 				379546982259A3A80050CB02 /* Utils */,
@@ -462,6 +470,7 @@
 				379546592259A3340050CB02 /* Assets.xcassets */,
 				3795465B2259A3340050CB02 /* LaunchScreen.storyboard */,
 				3795465E2259A3340050CB02 /* Info.plist */,
+				37E8260A2259A754004BE9CE /* PrefixHeader.pch */,
 				3795465F2259A3340050CB02 /* main.m */,
 			);
 			path = GentlyPoints;
@@ -496,6 +505,10 @@
 				379546882259A3950050CB02 /* ZDDBaseViewController.h */,
 				379546892259A3950050CB02 /* ZDDRetryView.h */,
 				3795468A2259A3950050CB02 /* ZDDTabBarController.h */,
+				37E8260C2259A892004BE9CE /* GODUserModel.h */,
+				37E8260D2259A893004BE9CE /* GODUserModel.m */,
+				37E8260B2259A892004BE9CE /* GODUserTool.h */,
+				37E8260E2259A893004BE9CE /* GODUserTool.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -890,6 +903,45 @@
 			path = ZDDPhotoBrowse;
 			sourceTree = "<group>";
 		};
+		37E826112259AB15004BE9CE /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				37E826122259AB15004BE9CE /* HomePage */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		37E826122259AB15004BE9CE /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				37E826132259AB15004BE9CE /* Controller */,
+				37E826142259AB15004BE9CE /* Model */,
+				37E826152259AB15004BE9CE /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		37E826132259AB15004BE9CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37E826142259AB15004BE9CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37E826152259AB15004BE9CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9992125971CC48D4ED118841 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -904,7 +956,6 @@
 				5327F10EE0FB86D5203105E0 /* Pods-GentlyPoints.debug.xcconfig */,
 				C7361AF44B5A7CF52610E36D /* Pods-GentlyPoints.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -1145,6 +1196,7 @@
 				379547A02259A3AA0050CB02 /* NSMutableDictionary+Attributes.m in Sources */,
 				379547C82259A3AA0050CB02 /* HXPhotoViewController.m in Sources */,
 				379547AD2259A3AA0050CB02 /* HXPhotoConfiguration.m in Sources */,
+				37E826102259A893004BE9CE /* GODUserTool.m in Sources */,
 				379547CF2259A3AA0050CB02 /* HXFullScreenCameraPlayView.m in Sources */,
 				379547B32259A3AA0050CB02 /* HXPhotoPersentInteractiveTransition.m in Sources */,
 				379547E42259A3AA0050CB02 /* UIColor+ZS.m in Sources */,
@@ -1169,6 +1221,7 @@
 				379547ED2259A3AA0050CB02 /* NSSet+HYBUnicodeReadable.m in Sources */,
 				3795478C2259A3AA0050CB02 /* POPSpringAnimation.mm in Sources */,
 				3795478D2259A3AA0050CB02 /* POPCustomAnimation.mm in Sources */,
+				37E8260F2259A893004BE9CE /* GODUserModel.m in Sources */,
 				3795479D2259A3AA0050CB02 /* POPVector.mm in Sources */,
 				379547892259A3AA0050CB02 /* POPCGUtils.mm in Sources */,
 				379547EB2259A3AA0050CB02 /* NSArray+HYBUnicodeReadable.m in Sources */,
@@ -1390,6 +1443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96NZDADFWS;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = GentlyPoints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1408,6 +1462,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96NZDADFWS;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = GentlyPoints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17B736DAFF6E79722BAAD6AE62913A5E"
+               BlueprintIdentifier = "BA4AE68799B8B02D8F4BEAF56785D9AB"
                BuildableName = "libTTAnimationButton.a"
                BlueprintName = "TTAnimationButton"
                ReferencedContainer = "container:Pods.xcodeproj">

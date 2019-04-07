@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "465E6381AF771EBDBB1750BD1FFF3F6D"
+               BlueprintIdentifier = "C78F695BB5819C44B93035194F2996C1"
                BuildableName = "libPods-GentlyPoints.a"
                BlueprintName = "Pods-GentlyPoints"
                ReferencedContainer = "container:Pods.xcodeproj">
