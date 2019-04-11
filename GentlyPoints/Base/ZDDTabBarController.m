@@ -12,7 +12,15 @@
 
 #import "ZDDNavController.h"
 
+<<<<<<< HEAD
 
+=======
+//#import "ZDDThridController.h"
+//#import "ZDDSecondController.h"
+//#import "ZDDFirstController.h"
+
+#import "GGGMovieDetailViewController.h"
+>>>>>>> ddbad8749b201118738480712ef92243a222fb79
 
 @interface ZDDTabBarController ()
 <
@@ -60,19 +68,20 @@ UITabBarControllerDelegate
 
 - (void)setupChildViewControllers {
     
-    ZDDFirstController *one = [[ZDDFirstController alloc] init];
-    [self addChileVcWithTitle:@"笑笑" vc:one imageName:@"lauth_unSelected" selImageName:@"lauth_selected"];
-    
-    YMHLVideoFlowViewController *second = [[YMHLVideoFlowViewController alloc] init];
-    [self addChileVcWithTitle:@"视频圈" vc:second imageName:@"video_unSelected" selImageName:@"video_selected"];
-    
-    ZDDSecondController *three = [[ZDDSecondController alloc] init];
-    [self addChileVcWithTitle:@"动态" vc:three imageName:@"dynamic_unSelected" selImageName:@"dynamic_selected"];
-    
-    
-    ZDDThridController *four = [[ZDDThridController alloc] init];
-    [self addChileVcWithTitle:@"我的" vc:four imageName:@"mine_unSelected" selImageName:@"mine_selected"];
-    
+//    ZDDFirstController *one = [[ZDDFirstController alloc] init];
+//    [self addChileVcWithTitle:@"笑笑" vc:one imageName:@"lauth_unSelected" selImageName:@"lauth_selected"];
+//    
+//    YMHLVideoFlowViewController *second = [[YMHLVideoFlowViewController alloc] init];
+//    [self addChileVcWithTitle:@"视频圈" vc:second imageName:@"video_unSelected" selImageName:@"video_selected"];
+//    
+//    ZDDSecondController *three = [[ZDDSecondController alloc] init];
+//    [self addChileVcWithTitle:@"动态" vc:three imageName:@"dynamic_unSelected" selImageName:@"dynamic_selected"];
+//    
+//    
+//    ZDDThridController *four = [[ZDDThridController alloc] init];
+//    [self addChileVcWithTitle:@"我的" vc:four imageName:@"mine_unSelected" selImageName:@"mine_selected"];
+    GGGMovieDetailViewController *movie = [GGGMovieDetailViewController new];
+    [self addChileVcWithTitle:@"Movie" vc:movie imageName:@"ico_tab_friend_40x40_" selImageName:@"ico_tab_friend_pressed-white_40x40_"];
 }
 
 - (void)addChileVcWithTitle:(NSString *)title vc:(UIViewController *)vc imageName:(NSString *)imageName selImageName:(NSString *)selImageName {

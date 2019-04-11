@@ -534,8 +534,8 @@
 		379546952259A3A60050CB02 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				379546962259A3A60050CB02 /* GODWebViewController.m */,
 				379546972259A3A60050CB02 /* GODWebViewController.h */,
+				379546962259A3A60050CB02 /* GODWebViewController.m */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
