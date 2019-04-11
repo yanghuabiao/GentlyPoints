@@ -372,6 +372,8 @@ PODS:
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
   - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
   - YYModel (1.0.4)
   - YYWebImage (1.0.5):
     - YYCache
@@ -404,6 +406,7 @@ DEPENDENCIES:
   - "UITextView+Placeholder"
   - XHLaunchAd
   - YYCategories
+  - YYImage/WebP
   - YYModel
   - YYWebImage
 
@@ -486,6 +489,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 2806238dd0337eb91315cdedd9fe53ca37e3c5d6
+PODFILE CHECKSUM: 7c1050da1e3a83f8c4ccc90c93b544e5f717bc8c
 
 COCOAPODS: 1.6.1

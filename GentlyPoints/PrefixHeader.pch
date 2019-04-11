@@ -30,6 +30,6 @@
 #import "UIView+LH.h"
 
 #import <SVProgressHUD/SVProgressHUD.h>
-
+#import "FFFBaseViewController.h"
 
 #endif /* PrefixHeader_pch */

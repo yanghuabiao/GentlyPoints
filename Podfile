@@ -5,6 +5,7 @@ target 'GentlyPoints' do
  
 
 pod 'YYWebImage'
+pod 'YYImage/WebP'
 pod 'QMUIKit'
 pod 'MFNetworkManager'
 pod 'MFHUDManager'

@@ -128,6 +128,9 @@
 		379547F42259A3B80050CB02 /* TEMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379547F22259A3B80050CB02 /* TEMPAppDelegate.m */; };
 		37E8260F2259A893004BE9CE /* GODUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8260D2259A893004BE9CE /* GODUserModel.m */; };
 		37E826102259A893004BE9CE /* GODUserTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8260E2259A893004BE9CE /* GODUserTool.m */; };
+		4A23A511225F158100192A2D /* FFFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A23A510225F158100192A2D /* FFFBaseViewController.m */; };
+		4A2FF78E225D7227003587E0 /* GGGMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FF78D225D7227003587E0 /* GGGMovieDetailViewController.m */; };
+		4A2FF792225D72FF003587E0 /* GGGMovieDetailHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FF791225D72FF003587E0 /* GGGMovieDetailHeaderTableViewCell.m */; };
 		E9DCC7170218A1960A5DFF0B /* libPods-GentlyPoints.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC9FC3732CB0F67647AB184 /* libPods-GentlyPoints.a */; };
 /* End PBXBuildFile section */
 
@@ -402,6 +405,12 @@
 		37E8260C2259A892004BE9CE /* GODUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GODUserModel.h; sourceTree = "<group>"; };
 		37E8260D2259A893004BE9CE /* GODUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODUserModel.m; sourceTree = "<group>"; };
 		37E8260E2259A893004BE9CE /* GODUserTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GODUserTool.m; sourceTree = "<group>"; };
+		4A23A50F225F158100192A2D /* FFFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFBaseViewController.h; sourceTree = "<group>"; };
+		4A23A510225F158100192A2D /* FFFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFFBaseViewController.m; sourceTree = "<group>"; };
+		4A2FF78C225D7227003587E0 /* GGGMovieDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGGMovieDetailViewController.h; sourceTree = "<group>"; };
+		4A2FF78D225D7227003587E0 /* GGGMovieDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGGMovieDetailViewController.m; sourceTree = "<group>"; };
+		4A2FF790225D72FF003587E0 /* GGGMovieDetailHeaderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGGMovieDetailHeaderTableViewCell.h; sourceTree = "<group>"; };
+		4A2FF791225D72FF003587E0 /* GGGMovieDetailHeaderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGGMovieDetailHeaderTableViewCell.m; sourceTree = "<group>"; };
 		5327F10EE0FB86D5203105E0 /* Pods-GentlyPoints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GentlyPoints.debug.xcconfig"; path = "Target Support Files/Pods-GentlyPoints/Pods-GentlyPoints.debug.xcconfig"; sourceTree = "<group>"; };
 		BCC9FC3732CB0F67647AB184 /* libPods-GentlyPoints.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GentlyPoints.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7361AF44B5A7CF52610E36D /* Pods-GentlyPoints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GentlyPoints.release.xcconfig"; path = "Target Support Files/Pods-GentlyPoints/Pods-GentlyPoints.release.xcconfig"; sourceTree = "<group>"; };
@@ -460,7 +469,7 @@
 			children = (
 				379547F32259A3B80050CB02 /* TEMPAppDelegate.h */,
 				379547F22259A3B80050CB02 /* TEMPAppDelegate.m */,
-				37E826112259AB15004BE9CE /* Business */,
+				4A2FF78B225D7206003587E0 /* MovieDetailController */,
 				379546922259A3A60050CB02 /* Launch */,
 				3795468F2259A3A60050CB02 /* SDK */,
 				379546982259A3A80050CB02 /* Utils */,
@@ -498,13 +507,13 @@
 			isa = PBXGroup;
 			children = (
 				379546832259A3950050CB02 /* ZDDNavController.h */,
-				379546842259A3950050CB02 /* ZDDBaseViewController.m */,
-				379546852259A3950050CB02 /* ZDDTabBarController.m */,
-				379546862259A3950050CB02 /* ZDDRetryView.m */,
 				379546872259A3950050CB02 /* ZDDNavController.m */,
 				379546882259A3950050CB02 /* ZDDBaseViewController.h */,
-				379546892259A3950050CB02 /* ZDDRetryView.h */,
+				379546842259A3950050CB02 /* ZDDBaseViewController.m */,
 				3795468A2259A3950050CB02 /* ZDDTabBarController.h */,
+				379546852259A3950050CB02 /* ZDDTabBarController.m */,
+				379546892259A3950050CB02 /* ZDDRetryView.h */,
+				379546862259A3950050CB02 /* ZDDRetryView.m */,
 				37E8260C2259A892004BE9CE /* GODUserModel.h */,
 				37E8260D2259A893004BE9CE /* GODUserModel.m */,
 				37E8260B2259A892004BE9CE /* GODUserTool.h */,
@@ -516,8 +525,8 @@
 		3795468F2259A3A60050CB02 /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				379546902259A3A60050CB02 /* TEMPSDKManager.m */,
 				379546912259A3A60050CB02 /* TEMPSDKManager.h */,
+				379546902259A3A60050CB02 /* TEMPSDKManager.m */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -525,8 +534,8 @@
 		379546922259A3A60050CB02 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
-				379546932259A3A60050CB02 /* TEMPLaunchManager.m */,
 				379546942259A3A60050CB02 /* TEMPLaunchManager.h */,
+				379546932259A3A60050CB02 /* TEMPLaunchManager.m */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -534,8 +543,8 @@
 		379546952259A3A60050CB02 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				379546962259A3A60050CB02 /* GODWebViewController.m */,
 				379546972259A3A60050CB02 /* GODWebViewController.h */,
+				379546962259A3A60050CB02 /* GODWebViewController.m */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -546,7 +555,6 @@
 				379546992259A3A80050CB02 /* PB */,
 				3795469A2259A3A80050CB02 /* pop */,
 				379546D32259A3A80050CB02 /* Category */,
-				379546E82259A3A80050CB02 /* gg.jpg */,
 				379546E92259A3A80050CB02 /* Ges */,
 				379546EC2259A3A80050CB02 /* YMHLButton */,
 				379546EF2259A3A80050CB02 /* HXPhotoPicker */,
@@ -558,6 +566,7 @@
 				3795477F2259A3A90050CB02 /* KeyConfig */,
 				379547822259A3A90050CB02 /* ZDDPhotoBrowse */,
 				379547852259A3A90050CB02 /* mook.json */,
+				379546E82259A3A80050CB02 /* gg.jpg */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -853,8 +862,8 @@
 		3795476E2259A3A90050CB02 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				3795476F2259A3A90050CB02 /* UIImage+Blur.m */,
 				379547702259A3A90050CB02 /* UIImage+Blur.h */,
+				3795476F2259A3A90050CB02 /* UIImage+Blur.m */,
 				379547712259A3A90050CB02 /* TEMPMacro.h */,
 			);
 			path = Macro;
@@ -903,43 +912,33 @@
 			path = ZDDPhotoBrowse;
 			sourceTree = "<group>";
 		};
-		37E826112259AB15004BE9CE /* Business */ = {
+		4A23A50E225F156D00192A2D /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				37E826122259AB15004BE9CE /* HomePage */,
+				4A23A50F225F158100192A2D /* FFFBaseViewController.h */,
+				4A23A510225F158100192A2D /* FFFBaseViewController.m */,
 			);
-			path = Business;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		37E826122259AB15004BE9CE /* HomePage */ = {
+		4A2FF78B225D7206003587E0 /* MovieDetailController */ = {
 			isa = PBXGroup;
 			children = (
-				37E826132259AB15004BE9CE /* Controller */,
-				37E826142259AB15004BE9CE /* Model */,
-				37E826152259AB15004BE9CE /* View */,
+				4A23A50E225F156D00192A2D /* Base */,
+				4A2FF78F225D72EA003587E0 /* Cell */,
+				4A2FF78C225D7227003587E0 /* GGGMovieDetailViewController.h */,
+				4A2FF78D225D7227003587E0 /* GGGMovieDetailViewController.m */,
 			);
-			path = HomePage;
+			path = MovieDetailController;
 			sourceTree = "<group>";
 		};
-		37E826132259AB15004BE9CE /* Controller */ = {
+		4A2FF78F225D72EA003587E0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				4A2FF790225D72FF003587E0 /* GGGMovieDetailHeaderTableViewCell.h */,
+				4A2FF791225D72FF003587E0 /* GGGMovieDetailHeaderTableViewCell.m */,
 			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		37E826142259AB15004BE9CE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		37E826152259AB15004BE9CE /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		9992125971CC48D4ED118841 /* Frameworks */ = {
@@ -1219,6 +1218,7 @@
 				379547912259A3AA0050CB02 /* POPDecayAnimation.mm in Sources */,
 				379547A12259A3AA0050CB02 /* NSMutableAttributedString+Chain.m in Sources */,
 				379547ED2259A3AA0050CB02 /* NSSet+HYBUnicodeReadable.m in Sources */,
+				4A2FF78E225D7227003587E0 /* GGGMovieDetailViewController.m in Sources */,
 				3795478C2259A3AA0050CB02 /* POPSpringAnimation.mm in Sources */,
 				3795478D2259A3AA0050CB02 /* POPCustomAnimation.mm in Sources */,
 				37E8260F2259A893004BE9CE /* GODUserModel.m in Sources */,
@@ -1236,6 +1236,7 @@
 				379547C72259A3AA0050CB02 /* HXPhotoTools.m in Sources */,
 				3795479E2259A3AA0050CB02 /* ASButtonNode+LHExtension.m in Sources */,
 				3795478B2259A3AA0050CB02 /* POPMath.mm in Sources */,
+				4A23A511225F158100192A2D /* FFFBaseViewController.m in Sources */,
 				3795468B2259A3950050CB02 /* ZDDBaseViewController.m in Sources */,
 				379547D22259A3AA0050CB02 /* HXAlbumModel.m in Sources */,
 				379547EC2259A3AA0050CB02 /* NSDictionary+HYBUnicodeReadable.m in Sources */,
@@ -1247,6 +1248,7 @@
 				3795479B2259A3AA0050CB02 /* POPAnimationEvent.mm in Sources */,
 				379547CD2259A3AA0050CB02 /* HXCustomAssetModel.m in Sources */,
 				379547D02259A3AA0050CB02 /* HXCustomNavigationController.m in Sources */,
+				4A2FF792225D72FF003587E0 /* GGGMovieDetailHeaderTableViewCell.m in Sources */,
 				379547BB2259A3AA0050CB02 /* UIView+HXExtension.m in Sources */,
 				3795479C2259A3AA0050CB02 /* POPLayerExtras.mm in Sources */,
 				379547F42259A3B80050CB02 /* TEMPAppDelegate.m in Sources */,
@@ -1442,16 +1444,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 96NZDADFWS;
+				DEVELOPMENT_TEAM = 24V79B9824;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = GentlyPoints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MakerYZC.GentlyPoints;
+				PRODUCT_BUNDLE_IDENTIFIER = com.godzzzzz.GentlyPoints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1461,16 +1463,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 96NZDADFWS;
+				DEVELOPMENT_TEAM = 24V79B9824;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = GentlyPoints/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = MakerYZC.GentlyPoints;
+				PRODUCT_BUNDLE_IDENTIFIER = com.godzzzzz.GentlyPoints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
