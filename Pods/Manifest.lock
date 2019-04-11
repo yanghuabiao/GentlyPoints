@@ -14,16 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - AVOSCloud (11.6.1)
-  - AVOSCloudIM (11.6.1):
-    - AVOSCloud (= 11.6.1)
-    - AVOSCloudIM/_ARC (= 11.6.1)
-    - AVOSCloudIM/_NOARC (= 11.6.1)
-  - AVOSCloudIM/_ARC (11.6.1):
-    - AVOSCloud (= 11.6.1)
-    - AVOSCloudIM/_NOARC (= 11.6.1)
-  - AVOSCloudIM/_NOARC (11.6.1):
-    - AVOSCloud (= 11.6.1)
   - DateTools (2.0.0)
   - DZNEmptyDataSet (1.8.1)
   - ESPictureBrowser (0.4.4):
@@ -380,8 +370,6 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
-  - AVOSCloud
-  - AVOSCloudIM
   - DateTools
   - DZNEmptyDataSet
   - ESPictureBrowser
@@ -413,8 +401,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - AVOSCloud
-    - AVOSCloudIM
     - DateTools
     - DZNEmptyDataSet
     - ESPictureBrowser
@@ -452,8 +438,6 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  AVOSCloud: 75fe137e0d4eae392047824cea66c9b99a2ea574
-  AVOSCloudIM: cc2079356c197f69d85d3cf6e1c99c5a1b6c0430
   DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   ESPictureBrowser: 2e9bb9dd2fc3c26a42d535e06df49981c5a8a2e2
@@ -489,6 +473,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 7c1050da1e3a83f8c4ccc90c93b544e5f717bc8c
+PODFILE CHECKSUM: cd6afc5b9a8d45504ce3032d9d9f4a1c4c8ab7d2
 
 COCOAPODS: 1.6.1

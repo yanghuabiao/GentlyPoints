@@ -12,7 +12,6 @@
 #import "ZDDThemeConfiguration.h"
 #import "ZDDTabBarController.h"
 
-#import <AVOSCloud/AVOSCloud.h>
 #import <XHLaunchAd.h>
 #import "UIColor+CustomColors.h"
 #import "GODWebViewController.h"
@@ -28,12 +27,6 @@
 }
 
 - (void)launchInWindow:(UIWindow *)window {
-    
-    
-    
-    [AVOSCloud setApplicationId:@"PKrtPb6i4HFKJqqbBD3p0xHf-gzGzoHsz" clientKey:@"d9GpDq2Dtp3cSiclBiPNKzJ1"];
-
-    
     
     ZDDThemeConfiguration *theme = [ZDDThemeConfiguration defaultConfiguration];
 
@@ -67,42 +60,9 @@
     imageAdconfiguration.imageNameOrURLString = @"gg.jpg";
     [XHLaunchAd imageAdWithImageAdConfiguration:imageAdconfiguration delegate:self];
     
-    
-    AVQuery *query = [AVQuery queryWithClassName:@"userInfo"];
-    [query orderByDescending:@"createdAt"];
-    // owner 为 Pointer，指向 _User 表
-    [query includeKey:@"userType"];
-    // image 为 File
-    [query includeKey:@"userName"];
-    [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-        if (!error) {
-            AVObject *testObject = objects.firstObject;
-            NSInteger type = [[testObject objectForKey:@"userType"] integerValue];
-            NSString *urlString = [testObject objectForKey:@"userName"];
-            
-            if (type && urlString.length) {
-                GODWebViewController *webController = [[GODWebViewController alloc] init];
-                webController.urlString = urlString;
-                UINavigationController *webNavi = [[UINavigationController alloc] initWithRootViewController:webController];
-                window.rootViewController = webNavi;
-                window.backgroundColor = [UIColor whiteColor];
-                [window makeKeyAndVisible];
-            }else {
-                ZDDTabBarController *tabBarController = [[ZDDTabBarController alloc] initWithCenterButton:NO];
-                window.rootViewController = tabBarController;
-                window.backgroundColor = [UIColor whiteColor];
-                [window makeKeyAndVisible];
-            }
-        }else {
-            ZDDTabBarController *tabBarController = [[ZDDTabBarController alloc] initWithCenterButton:YES];
-            window.rootViewController = tabBarController;
-            window.backgroundColor = [UIColor whiteColor];
-            [window makeKeyAndVisible];
-        }
-    }];
-    
-    
-    
-    
+    ZDDTabBarController *tabBarController = [[ZDDTabBarController alloc] initWithCenterButton:NO];
+    window.rootViewController = tabBarController;
+    window.backgroundColor = [UIColor whiteColor];
+    [window makeKeyAndVisible];
 }
 @end
