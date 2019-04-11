@@ -497,18 +497,18 @@
 		379546822259A3950050CB02 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				379546832259A3950050CB02 /* ZDDNavController.h */,
-				379546842259A3950050CB02 /* ZDDBaseViewController.m */,
-				379546852259A3950050CB02 /* ZDDTabBarController.m */,
-				379546862259A3950050CB02 /* ZDDRetryView.m */,
-				379546872259A3950050CB02 /* ZDDNavController.m */,
-				379546882259A3950050CB02 /* ZDDBaseViewController.h */,
-				379546892259A3950050CB02 /* ZDDRetryView.h */,
-				3795468A2259A3950050CB02 /* ZDDTabBarController.h */,
 				37E8260C2259A892004BE9CE /* GODUserModel.h */,
 				37E8260D2259A893004BE9CE /* GODUserModel.m */,
 				37E8260B2259A892004BE9CE /* GODUserTool.h */,
 				37E8260E2259A893004BE9CE /* GODUserTool.m */,
+				379546882259A3950050CB02 /* ZDDBaseViewController.h */,
+				379546842259A3950050CB02 /* ZDDBaseViewController.m */,
+				379546832259A3950050CB02 /* ZDDNavController.h */,
+				379546872259A3950050CB02 /* ZDDNavController.m */,
+				379546892259A3950050CB02 /* ZDDRetryView.h */,
+				379546862259A3950050CB02 /* ZDDRetryView.m */,
+				3795468A2259A3950050CB02 /* ZDDTabBarController.h */,
+				379546852259A3950050CB02 /* ZDDTabBarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
